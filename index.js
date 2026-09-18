@@ -1,21 +1,3 @@
-// let startingPlaceholder1 = document.getElementById("img1");
-
-// let placeHolder1 = document.createElement("p");
-// placeHolder1.textContent = "Roll the dice!";
-
-// startingPlaceholder1.replaceWith(placeHolder1);
-
-// // -------------------------------------------------------------------------- //
-
-// let startingPlaceholder2 = document.getElementById("img2");
-
-// let placeHolder2 = document.createElement("p");
-// placeHolder2.textContent = "Roll the dice!";
-
-// startingPlaceholder2.replaceWith(placeHolder2);
-
-
-
 function rollDice() {
 
 // IMAGE 1 ------------------------------------------------------------
@@ -23,7 +5,7 @@ function rollDice() {
     let randomNumber1 = Number(Math.floor(Math.random() * 6) + 1);
 
     let randomImage1 = `dice${randomNumber1}.png`;
-    let imageSource1 = `images/${randomImage1}`;
+    let imageSource1 = `Images/${randomImage1}`;
 
     let image1 = document.querySelectorAll("img")[0];
 
@@ -36,7 +18,7 @@ function rollDice() {
     let randomNumber2 = Number(Math.floor(Math.random() * 6) + 1);
 
     let randomImage2 = `dice${randomNumber2}.png`;
-    let imageSource2 = `images/${randomImage2}`;
+    let imageSource2 = `Images/${randomImage2}`;
 
     let image2 = document.querySelectorAll("img")[1];
 
